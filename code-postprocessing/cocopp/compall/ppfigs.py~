@@ -541,7 +541,7 @@ def main(dictAlg, html_file_prefix, sorted_algorithms=None, output_dir='ppdata',
                     sorted_algorithms = plotting_style.algorithm_list
                     styles = line_styles
 
-        # refalgentries = bestalg.load_reference_algorithm(testbedsettings.current_testbed.reference_algorithm_filename)
+        refalgentries = bestalg.load_reference_algorithm(testbedsettings.current_testbed.reference_algorithm_filename)
 
         if refalgentries:        
             refalgdata = []
